@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #583d72;
+    cursor: pointer;
+}
+button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: #583d72;
+    cursor: pointer;
+}
+
+/*****Intro page******/
+#intro{
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.welcome{
+    font-size: 4rem;
+    color: white;
+}
+.enterPassword{
+    color: white;
+    margin: 1em;
+}
+.passwordInput{
+    margin-bottom: 1.5em;
+}
+
+@media (max-width: 600px){
+    #intro{
+        margin-top: 25%;
+    };
+}
