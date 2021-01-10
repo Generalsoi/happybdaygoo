@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7% 10%;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    /*background-image: url("../images/goo1.jpg");*/
+}
+
+/**********birthday content**********/
+.birthday-content{
+    text-align: center;
+    align-items: center;
+    padding: 4% 
+}
+.fa-heart{
+    color: red;
+}
+article{
+    margin: 50px;
+}
+article .one{
+    text-align: left;
+}
+.image{
+    width: 60%;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 7% 0;
+    }
+    .birthday-content{
+        padding: 1%;
+    }
+    .image{
+        width: 90%;
+    }
+}

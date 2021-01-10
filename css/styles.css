@@ -1,13 +1,16 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #583d72;
     cursor: pointer;
+    background-image: url(../images/goo2.jpg);
+    background-position: center top;
 }
 button{
     width: 80px;
-    height: 50px;
-    border-radius: 10%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
 }
 button:hover{
     background-color: #583d72;
@@ -32,9 +35,23 @@ button:hover{
 .passwordInput{
     margin-bottom: 1.5em;
 }
+input{
+    width: 20%;
+    height: 25px;
+    border: none;
+    outline: none;
+}
 
 @media (max-width: 600px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     #intro{
         margin-top: 25%;
-    };
+    }
+
+    input{
+        width: 40%;
+    }
 }

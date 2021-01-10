@@ -5,8 +5,15 @@
     <meta name="description" content="A birthday present for the love of my life.">
     <title>Happy Birthday Mi Amor</title>
 
+    <!--vuejs cdn-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-    <link rel="stylesheet" href="styles.css">
+
+    <!--link to css-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 
@@ -14,12 +21,12 @@
 <body>
     <div id="intro">
         <h1 class="welcome">Welcome {{name}}</h1>
-        <form action="">
-            <p class="enterPassword">Enter password:</p>
-            <input type="text" class="passwordInput"> <br>
-            <button type="submit">Let's ride</button>
+        <form method="POST">
+            <i class="fas fa-key"></i>
+            <input type="password" v-model="password" class="passwordInput" placeholder="Enter password"> <br>
+            <button type="submit" v-on:click.stop.prevent="onSubmit()">Let's ride</button>
         </form>
-    </div>
+    </div> 
 
     <script type="text/javascript" src="./script.js"></script>
 </body>

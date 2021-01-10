@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A birthday present for the love of my life.">
+    <title>Happy Birthday Mi Amor</title>
+
+    <!--vuejs cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+    <!--link to css-->
+    <link rel="stylesheet" href="./css/birthday.css">
+
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="birthday-content" class="birthday-content">
+        <h1><i class="fas fa-heart"></i> {{message}} <i class="fas fa-heart"></i></h1>
+        <article>
+            <span class="one">I remember when I first told you I was in love with you, lol. Seeing the shock on your face
+            was everything. When you eventually said yes to me, I was the happiest man on earth 
+            that day, and ever since, I have always found new reasons to fall in love with you daily.
+
+            In all sincerity, I have enjoyed every single moment we have shared, I have become a better man 
+            ever since I started dating you, and I mean in all aspects.</span> <br> <br>
+            <span class="one">Aren't I just blessed? I mean, I am dating the most beautiful lady existing. Isn't that just so 
+            overwhelming a blessing? I cherish you my queen. I bet you do not know how much I love you. Lol. 
+            Check out this beauty:</span>
+        </article>
+        <img v-bind:src="image1" class="image" alt="">
+
+        <article>
+            <span class="one">You are so beautiful, so much so that I crush on you daily. Have I told you how I enjoy stealing glances 
+            at you when you are in class? Lol. I look at your pictures daily, and admire the beautiful creation of the 
+            almighty. I am always in awe of your beauty. I remain forever grateful that you are my lady. I absolutely do 
+            not take it for granted.</span> <br> 
+            <br>
+            <span class="one">So, here is me saying thank you for existing. How else was my life supposed to be this beautiful? Thanks to your 
+            momma for giving birth to you. Thank you for being the amazing woman that you are. I am elated to be in your life. 
+            I really cannot wait to put a ring on your finger. I wanna spend the rest of my life waking up next to you, making 
+            beautiful memories, winning big in our chosen career paths, making beautiful babies that would be world changers, making 
+            impact in this world, and leaving legacies for our children that last even to our fifth generation. </span><br> <br>
+            <span class="one">I sincerely pray that this new year is as beautiful as you, favour locates you like never before, and that you achieve all that you 
+            ever wanted to achieve. I want you to know that I will always support you, and that I will always be there for you. 
+            Like I always say, I love you more than whatever circumstance we face in the future. Whatever comes our way, we would scale through it 
+            together. Let's take another moment to admire your beauty: </span>
+        </article>
+        <img v-bind:src="image2" class="image" alt="">
+        <article>
+            <span class="one">I know this is a really lengthy read, but I am excited and blessed.
+                I love you GOO. Do not ever forget that. Kisses.
+            </span>
+        </article>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
